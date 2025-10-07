@@ -7,7 +7,7 @@ import { useState } from "react"
 
 export function HeroHeader() {
   const [copied, setCopied] = useState(false)
-  const contractAddress = "hacker will update ca soon"
+  const contractAddress = "7jAdmmxfMWJbJC9WxYN5pdwGioWz9qmsbM2susvapump"
 
   const copyToClipboard = () => {
     navigator.clipboard.writeText(contractAddress)
